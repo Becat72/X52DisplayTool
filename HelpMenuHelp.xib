@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="HelpMenuHelp" customModule="X52DisplayTool"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="453" height="434"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="453" height="434"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X56-wz-Yem">
+                        <rect key="frame" x="20" y="20" width="413" height="394"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <clipView key="contentView" ambiguous="YES" copiesOnScroll="NO" id="jL6-Qg-Qzn">
+                            <rect key="frame" x="1" y="1" width="396" height="392"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textView ambiguous="YES" importsGraphics="NO" baseWritingDirection="leftToRight" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" smartInsertDelete="YES" id="YEf-es-bFW">
+                                    <rect key="frame" x="0.0" y="0.0" width="396" height="928"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="textColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <size key="minSize" width="396" height="392"/>
+                                    <size key="maxSize" width="463" height="10000000"/>
+                                    <attributedString key="textStorage">
+                                        <fragment>
+                                            <mutableString key="content">X52DisplayTool
+
+Front-end gui for HotasCtrl for OS X
+
+X52DisplayTool:
+
+I created this program as a front-end gui for webbasan's exellent HotasCtrl tool for controling the MFD and LED's of a Saitek X52 Hotas Flight Stick.
+
+I use it primarely for updating information on the MFD in Elite: Dangerous, but you can ofcourse use it any way you like :-)
+
+Prerequisites:
+
+- Because this is only a front-end, You must still have java runtime installed, take a look at webbasan's guide for more info.
+- You must obviously also have HotasCtrl.jar. You don't need the source code, just the .jar 
+
+Credits/Links:
+
+Thanks to Webbasan for his exellent HotasCtrl java tool. Check it out on github at: https://github.com/webbasan/HotasCtrl
+The SaitekX52pro class that webbasan uses was created by Antony T. Curtis in the "Mac Elite: Dangerous" forum. Many thanks to Anthony for this. Check it out on github at: https://github.com/atcurtis/saitekx52pro
+
+Changlelog:  v1.2 Fixed a problem where the progam wouldn't fuction on OS X Sierra. You now hate to put in the entire path and executable in the preferences.  v1.1  - Changed the LED buttons so you can check/uncheck multiple LED's in one go. - Some clean-up of the code. - This version is compatible with OS X 10.10 and 10.11.
+
+v1.0
+
+- Implemented 'Preferences' menu item.
+- Some minor bugfixes.
+
+Known issues
+
+- The value for the HotasCtrl.jar location does not get set when the application is initially run. This has to be set manually.
+
+v0.2
+
+- Initial release.</mutableString>
+                                            <attributes>
+                                                <color key="NSColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" metaFont="system"/>
+                                                <real key="NSKern" value="0.0"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                    <tabStops/>
+                                                </paragraphStyle>
+                                                <color key="NSStrokeColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="XzW-ku-w08">
+                            <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="0.72201492537313428" horizontal="NO" id="CbN-x2-zeu">
+                            <rect key="frame" x="397" y="1" width="15" height="392"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="-6.5" y="286"/>
+        </window>
+    </objects>
+</document>
