@@ -25,7 +25,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textView ambiguous="YES" importsGraphics="NO" baseWritingDirection="leftToRight" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" smartInsertDelete="YES" id="YEf-es-bFW">
-                                    <rect key="frame" x="0.0" y="0.0" width="396" height="928"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="396" height="944"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="textColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -53,7 +53,9 @@ Credits/Links:
 Thanks to Webbasan for his exellent HotasCtrl java tool. Check it out on github at: https://github.com/webbasan/HotasCtrl
 The SaitekX52pro class that webbasan uses was created by Antony T. Curtis in the "Mac Elite: Dangerous" forum. Many thanks to Anthony for this. Check it out on github at: https://github.com/atcurtis/saitekx52pro
 
-Changlelog:  v1.2 Fixed a problem where the progam wouldn't fuction on OS X Sierra. You now hate to put in the entire path and executable in the preferences.  v1.1  - Changed the LED buttons so you can check/uncheck multiple LED's in one go. - Some clean-up of the code. - This version is compatible with OS X 10.10 and 10.11.
+Changlelog:  v1.2
+
+- Fixed a problem where the progam wouldn't fuction on OS X Sierra. You now hate to put in the entire path and executable in the preferences.  v1.1  - Changed the LED buttons so you can check/uncheck multiple LED's in one go. - Some clean-up of the code. - This version is compatible with OS X 10.10 and 10.11.
 
 v1.0
 
@@ -87,7 +89,7 @@ v0.2
                             <rect key="frame" x="-100" y="-100" width="87" height="18"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="0.72201492537313428" horizontal="NO" id="CbN-x2-zeu">
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="0.93840579710144922" horizontal="NO" id="CbN-x2-zeu">
                             <rect key="frame" x="397" y="1" width="15" height="392"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
