@@ -21,7 +21,7 @@ Changlelog:
 
 v1.2
 
-- Fixed a problem where the progam wouldn't fuction on OS X Sierra. You now hate to put in the entire path and executable in the preferences.
+- Fixed a problem where the progam wouldn't fuction on OS X Sierra. You now have to put in the entire path and executable in the preferences.
 
 v1.1
 
